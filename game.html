@@ -1,0 +1,37 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!--Game page stylesheet-->
+        <link rel="stylesheet" href="game.css">
+        <!--JavaScript linkage for game-->
+        <script src="code.js"></script>
+    </head>
+    <body>
+        <!--Header for page-->
+        <h1> Welcome to the Game Zone!</h1>
+        <h4>Where the games happen.</h4>
+        <p>
+            <h2>Oh, CRAPS!</h2>
+        </p>
+        <br>
+        <!--Image for the game title-->
+        <img src="ohcraps_crop.png">
+        <br>
+        <br>
+        <!--Result lines for the game output-->
+        <p>Chance Cube One landed on: <div id="dice1res">Press the PLAY button to start!</div></p>
+        <p>Chance Cube Two landed on: <div id="dice2res">Press the PLAY button to start!</div></p>
+        <br>
+        <!--sum of the dice rolls-->
+        The total: <div id="sumRes">Press the PLAY button to start!</div>
+        <br>
+        <!--result of the game-->
+        How did you do?<div id="gameRes">Press the PLAY button to start!</div>
+        <!--Button and function setup for game-->
+        <br>
+        <button onclick="playCraps();">Click to PLAY</button>
+    </body>
+    </html>
